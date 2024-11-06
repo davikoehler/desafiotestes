@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^11.4",
+        "mockery/mockery": "^1.5"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "coverage": "XDEBUG_MODE=coverage phpunit --coverage-html html"
+    },
+    "autoload": {
+        "psr-4": {
+            "Headers\\": "src/"
+        }
+    }
+}
